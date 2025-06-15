@@ -15,7 +15,7 @@ smtp_object.ehlo()
 #encryption
 smtp_object.starttls()
 
-appws = "xfhd qprq cnwe jypo" #nrthbot@gmail.com
+appws = #your app password that was given to you. Do not share it to other people.
 
 email = getpass.getpass("Sender Email: ")
 
