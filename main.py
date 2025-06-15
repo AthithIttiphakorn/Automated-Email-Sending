@@ -39,3 +39,5 @@ while True: #schedule email send
     if elapsed_time >= 20:
         smtp_object.sendmail(from_address, to_address, msg)
         start_time = time.time()
+
+#add smtp_object.quit() to close the connection
